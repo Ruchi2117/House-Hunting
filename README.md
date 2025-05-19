@@ -1,7 +1,7 @@
 <div align="center">
   <h1>🏠 House Hunting</h1>
   <p>
-    A powerful machine learning application that predicts house prices based on various ML features
+    House Hunting is a powerful and interactive machine learning web application built with Streamlit, designed to accurately predict house prices based on a variety of data-driven features. Whether you're a  data enthusiast, real estate analyst, or simply curious about property pricing trends, this tool provides deep insights through exploratory data analysis, automated feature engineering, and model comparison — all in one seamless dashboard.
     <br />
     <a href="https://house-hunting-fcyh9xu8wxipfxbrggcvzu.streamlit.app/" target="_blank">View Demo</a>
   </p>
