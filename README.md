@@ -3,7 +3,7 @@
   <p>
     A powerful machine learning application that predicts house prices based on various features
     <br />
-    <a href="" target="_blank">View Demo</a>
+    <a href="https://house-hunting-fcyh9xu8wxipfxbrggcvzu.streamlit.app/" target="_blank">View Demo</a>
   </p>
   
   [![Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://house-prediction-wctwgkvhjgqgnkktz9tyuc.streamlit.app/)
