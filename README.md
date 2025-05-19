@@ -99,8 +99,18 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
+## 📊 Data
+
+This project uses the [Housing Prices Dataset](https://www.kaggle.com/datasets/yasserh/housing-prices-dataset) from Kaggle, which contains comprehensive information about residential properties. The dataset includes various features such as:
+- Property size and area
+- Number of bedrooms and bathrooms
+- Property age and condition
+- Location-based features
+- Various amenities and property characteristics
+
 ## 🙏 Acknowledgments
 
+- [Kaggle](https://www.kaggle.com/) for providing the dataset
 - [Streamlit](https://streamlit.io/) for the amazing web framework
 - [Scikit-learn](https://scikit-learn.org/) for machine learning tools
 - [XGBoost](https://xgboost.ai/) for gradient boosting
