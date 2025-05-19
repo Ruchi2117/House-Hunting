@@ -1,7 +1,7 @@
 <div align="center">
   <h1>🏠 House Hunting</h1>
   <p>
-    Your intelligent home-buying companion - Predict house prices and find your dream home with AI-powered insights
+    A powerful machine learning application that predicts house prices based on various features
     <br />
     <a href="" target="_blank">View Demo</a>
   </p>
@@ -14,12 +14,12 @@
 
 ## ✨ Features
 
-- **🏡 Smart Price Prediction**: Get instant, accurate house price estimates using advanced ML models
-- **📊 Interactive Dashboard**: Beautiful and intuitive interface for exploring properties
-- **🔍 Market Insights**: Comprehensive data visualization and neighborhood analysis
-- **🤖 AI-Powered**: Multiple regression models (XGBoost, Random Forest, and more) for reliable predictions
-- **📱 Responsive Design**: Seamless experience across all devices
-- **🔧 Feature Analysis**: Understand what factors influence property prices the most
+- **Interactive Dashboard**: Beautiful and intuitive Streamlit interface
+- **Exploratory Data Analysis**: Comprehensive data visualization and statistical analysis
+- **Feature Engineering**: Automated data preprocessing and feature creation
+- **Multiple ML Models**: Compare various regression models (Linear, Ridge, Lasso, Random Forest, XGBoost)
+- **Real-time Prediction**: Get instant house price predictions
+- **Responsive Design**: Works on desktop and mobile devices
 
 ## 🚀 Getting Started
 
@@ -32,8 +32,8 @@
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/Ruchi2117/house-hunting.git
-   cd house-hunting
+   git clone https://github.com/Ruchi2117/House-Hunting.git
+   cd House-Hunting
    ```
 
 2. **Create a virtual environment (recommended)**
@@ -111,5 +111,5 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 <div align="center">
   <p>Crafted with ❤️ by Ruchi Shaktawat 🚀</p>
-  <p>Thank you for checking out House Hunting! If you have any feedback or suggestions, feel free to reach out. May you find your dream home! 🏡</p>
+  <p>Thank you for checking out the House Price Prediction App! If you have any feedback or suggestions, feel free to reach out. Happy house hunting! 🏡</p>
 </div>

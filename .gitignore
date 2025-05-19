@@ -37,17 +37,18 @@ ENV/
 # Environment variables
 .env
 
-# Data files
-*.csv
+# Ignore large or sensitive data files (keep sample data)
+# Keep these files:
+# data/house_data.csv
+# data/processed/
+
+# But ignore other data files
 *.xlsx
 *.db
 *.sqlite3
 
-# Model files
-*.pkl
-*.h5
-*.hdf5
-*.model
+# Model files - keep trained models but ignore large ones
+# models/*.pkl
 
 # Logs and databases
 *.log

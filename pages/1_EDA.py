@@ -14,13 +14,48 @@ st.sidebar.image(
 st.sidebar.title(" Navigation")
 st.sidebar.markdown("---")
 
-# Load data
+# Create data directory if it doesn't exist
+import os
+os.makedirs("data", exist_ok=True)
+
+# Load or download data
 @st.cache_data
 def load_data():
-    df = pd.read_csv("data/house_data.csv")
-    return df
+    data_path = "data/house_data.csv"
+    
+    # If data file doesn't exist, download it
+    if not os.path.exists(data_path):
+        import requests
+        from io import StringIO
+        
+        # URL to the raw dataset (you can replace this with your dataset URL)
+        dataset_url = "https://raw.githubusercontent.com/Ruchi2117/House-Hunting/main/data/house_data.csv"
+        
+        try:
+            response = requests.get(dataset_url)
+            response.raise_for_status()
+            
+            # Save the data locally
+            with open(data_path, 'w', encoding='utf-8') as f:
+                f.write(response.text)
+                
+            st.success("✅ Data downloaded successfully!")
+        except Exception as e:
+            st.error(f"❌ Error downloading data: {str(e)}")
+            return None
+    
+    try:
+        df = pd.read_csv(data_path)
+        return df
+    except Exception as e:
+        st.error(f"❌ Error loading data: {str(e)}")
+        return None
 
+# Load the data
 df = load_data()
+
+if df is None:
+    st.warning("⚠️ No data available. Please check your internet connection or data source.")
 
 # Basic Info
 st.write("### 📌 Dataset Overview")

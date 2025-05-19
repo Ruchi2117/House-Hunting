@@ -115,7 +115,8 @@ if st.button("🔧 Apply Feature Engineering"):
     os.makedirs('data', exist_ok=True)
     df_processed.to_csv("data/processed_house_data.csv", index=False)
     
-    # Save the preprocessor
+    # Ensure model directory exists and save the preprocessor
+    os.makedirs('model', exist_ok=True)
     joblib.dump(preprocessor, 'model/preprocessor.pkl')
     
     st.success("✅ Feature engineering completed successfully!")
