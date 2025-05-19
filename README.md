@@ -3,7 +3,7 @@
   <p>
     Your intelligent home-buying companion - Predict house prices and find your dream home with AI-powered insights
     <br />
-    <a href="https://house-prediction-wctwgkvhjgqgnkktz9tyuc.streamlit.app/" target="_blank">View Demo</a>
+    <a href="" target="_blank">View Demo</a>
     ·
     <a href="#features">Features</a>
     ·
