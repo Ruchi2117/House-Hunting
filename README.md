@@ -1,7 +1,7 @@
 <div align="center">
   <h1>🏠 House Hunting</h1>
   <p>
-    A powerful machine learning application that predicts house prices based on various features
+    A powerful machine learning application that predicts house prices based on various ML features
     <br />
     <a href="https://house-hunting-fcyh9xu8wxipfxbrggcvzu.streamlit.app/" target="_blank">View Demo</a>
   </p>
